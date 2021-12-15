@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy4-1</title>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		font-family: "华文细黑";
+		font-size: 20px;
+	}
+	#box{
+		margin: 0;
+		width: 930px;
+		background: gray;
+		border-style: solid;
+		border-color: black;
+	
+	}
+	#header{
+		height: 200px;
+		width: 900px;
+		margin:50px 10px 20px 10px;
+		background: #D32124;
+		border-style: groove;
+		border-color: rebeccapurple;
+	}
+	#logoBox{
+		float:left;
+		width: 260px;
+		height: 50px;
+		background: #F8EC26;
+		background-color: yellow;
+		margin: 50px 0 30px 40px;
+		border-style: solid;
+		border-color: white;
+	}
+	#bannerBox{
+		float: inherit;
+		width: 520px;
+		height: 50px;
+		background: #;
+		margin: 50px 30px 30px 0;
+		border-style: dashed;
+		border-color: antiquewhite;
+	}
+	#menuBox{
+		float:left;
+		width: 830px;
+		height: 50px;
+		background: #36563E;
+		margin-left: 40px;
+		border-style: solid;
+		border-color: black;
+	}
+	#container{
+		width: 900px;
+		height: 400px;
+		margin:20px 10px 20px 10px;
+		border-style: solid;
+		border-color: yellow;
+		background: #AE249A;
+	}
+	#sidebarBox{
+		float:left;
+		width: 200px;
+		height: 320px;
+		background:#313CC4;
+		margin: 50px 0 20px 20px;
+		border-style: solid;
+		border-color: white;
+	}
+	#contentBox{
+		float: right;
+		width: 600px;
+		height: 320px;
+		background: #E79843;
+		margin: 50px 20px 20px 0;
+		border-style: solid;
+		border-color: white;
+	}
+	#footer{
+		width: 900px;
+		height: 50px;
+		background: #E12427;
+		margin: 40px 10px 20px 10px;
+		border-style: solid;
+		border-color: yellow;
+	}
+	</style>
+</head>
+<body>
+	<div id="wrap">
+		<div id="header">div->header包含下面3个结构div布局头部高度和主要背景
+			<div id="logoBox">div->id=logo</div>
+			<div id="bannerBox">div->id=banner</div>
+		</div>
+		<div id="container">div->id=main 包含下面2个div(sidebar,content)
+			<div id="sidebarBox">div->id=sidebar</div>
+			<div id="contentBox">div->id=content</div>
+		</div>
+		<div id="footer">div->id=footer</div>
+   </div>
+</body>
+</html>
